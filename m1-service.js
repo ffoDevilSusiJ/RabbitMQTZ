@@ -10,7 +10,10 @@ const {TaskGenerator} = require('./rabbitmq');
 const rabbit = new TaskGenerator("tasks", "results");
 rabbit.init(); 
 
-const port = 3001;
+const config = require('config');
+const port = config.get('server.port');
+
+
 const pool = []; 
 
 app.get("/calc", async (req, res) => {

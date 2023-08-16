@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "http-server": "node m1-service.js",
+    "task-handler": "node m2-service.js",
+    "dev": "start npm run http-server && start npm run task-handler"
+  },
   "dependencies": {
     "amqplib": "^0.10.3",
+    "config": "^3.3.9",
     "express": "^4.18.2",
     "log4js": "^6.9.1",
     "node": "^20.5.0"
