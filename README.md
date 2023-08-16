@@ -25,6 +25,14 @@ This project is a tool for generating and handling tasks using RabbitMQ message 
 
 ## Endpoints
 * `/calc`: Sends the task and returns the result.
+```json
+{
+    "a": number,
+    "b": number,
+    "id": string,
+    "result": number
+}
+```
 
 ## Configuration
 The service can be configured using the following environment variables:
