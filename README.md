@@ -7,11 +7,6 @@ This project is a tool for generating and handling tasks using RabbitMQ message 
 * RabbitMQ 
 * Erlang 
 
-## Node Dependencies
-* amqplib
-* express
-* log4js
-
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/user/repo.git`
