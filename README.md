@@ -1,6 +1,6 @@
 # RabbitMQTZ
 
-This project is a tool for generating and handling tasks using RabbitMQ message broker.
+This is a tool for creating and handling tasks using RabbitMQ message broker.
 
 ## Requirements
 * Node.js
