@@ -9,7 +9,7 @@ This is a tool for creating and handling tasks using RabbitMQ message broker.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/user/repo.git`
+1. Clone the repository: `git clone https://github.com/ffoDevilSusiJ/RabbitMQTZ.git`
 2. Install dependencies: `npm install`
 
 ## Usage
