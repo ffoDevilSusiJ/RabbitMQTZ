@@ -15,9 +15,9 @@ This is a tool for creating and handling tasks using RabbitMQ message broker.
 ## Usage
 
 1. Start the RabbitMQ server.
-2. Start the services: `npm run dev`
-3. Send a task to the service using the `/calc?a={value}&b={value}` endpoint.
-
+2. Start the services: `npm run dev` 
+* If the firewall needs to allow access to the network, you will need to restart the services
+3. Send a task to the service using the `/calc?a={value}&b={value}` endpoint. 
 ## Endpoints
 * `/calc`: Sends the task and returns the result.
 ```json
